@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap');
+
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+    list-style: none;
+
+}
+ 
+
+:root{
+    --box-shadow : 0 .5rem 1rem rgba(0,0,0,.2);
+    --danger:rgba( 218,57,43);
+    
+}
+a  {
+    text-decoration: none !important;
+    color: black !important;
+  
+}
+
+#bi-list{
+    font-size: 40px;
+    color: var(--danger);
+    display: none;
+    font-weight: bolder;
+    
+}
+#bi-x-square {
+    font-size: 40px;
+    color: white;
+    top: 0;
+    margin-left: 80% ;  
+     color: var(--danger);
+     
+}
+header{
+    width: 100%;
+    height: 800px;
+    position: relative;
+    background: url(../images/main-cover.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed ;
+}
+header .nav-bar{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+header .nav-bar .logo{
+    width: 10%;
+    border-bottom-left-radius:1.3rem ;
+    border-bottom-right-radius:1.3rem ;
+    line-height: normal;
+    text-align: center;
+    font-size: 26px;
+   
+    background: var(--danger);
+    display: flex;
+    
+    align-items: center;
+    margin-left: 5%;
+}
+header .nav-bar .logo a {
+    color: white !important;
+    text-decoration: none;
+    padding-left: 6%;
+    font-family: 'Philosopher', sans-serif;
+    
+}
+header nav{
+    width: 40%;
+    height: 100%;
+   
+    margin-right: 5%;
+    border-bottom-left-radius:1.3rem ;
+    border-bottom-right-radius:1.3rem ;
+}
+header nav {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;    
+
+}
+header nav a {
+    width: 50%;
+    height: 60px;
+    padding-top: 2%;
+    background: white;
+    
+    
+}
+header .first {     
+    background: var(--danger);
+    border-bottom-left-radius:1.3rem ; 
+    color: white !important;
+}
+header nav .last  {
+    border-bottom-right-radius:1.3rem ; 
+}
+
+header nav a:hover{
+    
+    text-decoration: none;
+    background: var(--danger);
+    color: white !important;
+}
+header nav  .dropdown-center{
+    background: white;
+    width: 50%;
+    height: 60px;
+    align-items: center;
+    text-align: center;
+}
+header nav .btn{
+    margin-top: 5%;
+    border: none;
+}
+ 
+header nav .dropdown-center .dropdown-menu li :hover{
+    background: var(--danger);
+}
+ 
+header .content{
+    width: 50%;
+    height: 100%;
+     
+    margin-top: 8%;
+    margin-left: 10%;
+  
+}
+header .content .title {
+    margin-left: 1rem;
+}
+header .content .title h3{
+    color: rgb(39,36,67);
+    font-family: 'Suez One', serif;
+    font-size: 80px;
+}
+header .content .title p {
+    color: rgb(39,36,67);
+    font-size: 24px;
+}
+.menu-bar{
+    width: 360px;
+    min-height: 100vh;
+    background: rgba(255, 255, 255);
+    top: 0;
+    right: -110%;
+    z-index: 1000;
+    position: fixed;
+    transition: 0.3s;
+    display: none;
+
+
+}
+.menu-bar.active{
+    right: 0;
+}
+.menu-bar .menu{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+     
+ 
