@@ -227,7 +227,26 @@
     .our-game .game-container  .game {
         width: 30%;
     }
-     
+
+    .explore .title {
+        width: 80%;
+        height: 300px;
+        margin: 7% 10%;
+        
+    }
+    .explore .title h1{
+        width: 70%;
+       
+    }
+    .explore .title  a {
+        width: 15%;
+        margin-top: 4%;
+        cursor: pointer !important;
+    }
+    .explore .input {
+        margin-top: 28.6%;
+    }
+    
  
 }
 

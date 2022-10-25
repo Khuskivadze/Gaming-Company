@@ -380,7 +380,7 @@ header .content .title p {
    width: 100%;
    background: url(../images/photo-2.jpg) no-repeat;  
    background-position: center;
-   height: 900px;
+    
    margin-top: 10%;
     
 }
@@ -420,10 +420,269 @@ header .content .title p {
     margin-left: 14%;
 }
 
+.explore {
+    width: 100%;
+    background: url(../images/explore.jpg) no-repeat;  
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed ;
+    height: 800px  ;
+    position: relative;
+    margin-top: 10%;
+}
+.explore .title {
+    width: 80%;
+    height: 300px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    margin: 5% 14%;
+    line-height:2;
+    
+}
+  
+.explore .title  p {
+    font-size: 21px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+.explore .title  h1{
+    font-size: 50px;
+    font-family: 'Suez One', serif;
+    color: white;
+    width: 50%;
+
+}
+.explore .title  a {
+    width: 10%;
+    background-color: #e6e213;
+    height: 60px;
+    display: flex;
+    cursor: pointer !important;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 3%;
+    justify-content: center;
+    border-radius: .5rem;
+    
+}
+.explore .input{
+    position: absolute;
+    margin-top: 20.3%;
+     
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.explore .input form {
+    width: 438px;
+    height: 750px;
+    background-color: white;
+    border-radius: 1.5rem;
+    margin-top: 10%;
+}
+.explore .input form h3{
+    font-size: 34px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-top: 10%;
+    margin-left: 10%;
+      
+
+}
+.explore .input form p {
+    line-height: 1.6em;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 10%;
+    
+    width: 65%;
+    color: rgb(39,36,67);
+}
+.explore .input form .inputBox{
+     width: 80%;
+     display: flex;
+     justify-content: space-between;
+     margin-left: 6%;
+    
+}
+.explore .input form .inputBox input{
+   width: 166px;
+   height: 59px;
+   margin-left: 10%;
+   border-radius: .5rem;
+   border: 2px solid rgb(39,36,67);
+}
+.explore .input form .email input{
+   width: 80% ;
+   height: 59px;
+   margin-left: 10%;
+   border-radius: .5rem;
+   border: 2px solid rgb(39,36,67);
+}
+.explore .input form .text-area textarea{
+    width: 80% ;
+    height: 100px;
+    margin-left: 10%;
+    border-radius: .5rem;
+    border: 2px solid rgb(39,36,67);
+}
+.explore .input form .text-area  .btn {
+    width: 80% ;
+    height: 60px;
+    border-radius: .5rem;
+    background: rgb(39,36,67);
+    color: white;
+    margin-left: 10%;
+    margin-top: 3%;
+    transition: all 500ms ease;
+} 
+.explore .input form .text-area  .btn:hover{
+    background: var(--danger);
+}
+
+
+
+
+.star {
+    width: 100%;
+    background: url(../images/star.jpg) no-repeat;  
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed ;
+    height: 600px  ;
+     
+    
+}
+.star div{
+    width: 388px;
+    height: 215px;
+    background: var(--danger);
+    position: absolute;
+    margin-top: 12%;
+    left: 65%;
+    border-radius: 1.5rem;
+}
+.star div h1 {
+    font-size: 21px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-top: 7%;
+    margin-left: 10%;
+    color: white;
+
+}
+.star div p{
+    margin-left: 10%;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.star div form {
+    width: 85%;
+    margin-left: 9%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.star div form input{
+    width: 238px;
+    height: 60px;
+    border-radius: .5rem;
+    border: 2px solid rgb(39,36,67);
+}
+.star div form .btn{
+    width: 79px;
+    height: 60px;
+    border: none;
+    background: rgb(252,255,114) !important;
+    transition: all 500ms ease;
+}
+.star div form .btn:hover{
+    background: rgb(172, 146, 146)!important;
+    color: white;
+}
  
 
 /* main section is end */
 
-
+footer{
+    width: 100%;
+    height: 676px;
+    background: #bb5c5c00;
+}
+footer .footer-title {
+    width: 100%;
+    height: 150px;
+   
+    display: flex;
+    flex-direction: column;
+    line-height: 3;
+    
+    align-items: center;
+    
+}
+footer .footer-title h1{
+    width: 166px;
+    height: 60px;
+    border-bottom-left-radius:1.3rem ;
+    border-bottom-right-radius:1.3rem ;
+    line-height: normal;
+    text-align: center;
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--danger);
+    font-family: 'Philosopher', sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-left: 27% !important;
+}
+footer .footer-title  p {
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    color:  rgb(39,36,67);
+}
      
- 
+footer .border{
+    width: 80%;
+    height: 3px;
+    background: gray;
+    margin: 0 auto;
+}
+footer .contact-container{
+    width: 100%;
+}
+footer .contact-container  .container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+    line-height: 2;
+}
+footer .contact-container  .container div h1{
+    font-size: 21px;
+    font-weight: bold;
+    color:  rgb(39,36,67);
+}
+footer .contact-container  .container div p {
+    font-size: 15px;
+    color: rgb(117,117,117);
+}
+footer .contact-container  .container div ul li a {
+    font-size: 15px !important;
+    color: rgb(117,117,117)!important;
+}
+footer .contact-container  .container:last-child div{
+    display: flex;
+    flex-direction: column;
+}
